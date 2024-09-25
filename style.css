@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    background-color: teal;
+}
+.bodyCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gameBody{
+    height: 500px;
+    width:  500px;
+    background-color: black;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 3%;
+    border: none;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    margin-top: 7px;
+    border-radius: 5%;
+    border: none;
+    font-size: 80px;
+    color: salmon;
+
+}.hide{
+    display:none ;
+}
+.comment{
+    display: flex;
+    justify-content: center;
+}
+p{
+    font-size: 80px;
+    color: aliceblue;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 3%;
+    border: none;
+}
+.button:hover{
+     background-color: black;
+     color: aliceblue;
+     border-radius: 3%;
+     border: none;
+
+}button:hover{
+    background-color: rgba(157, 154, 154, 0.998);
+    color:rgba(123, 246, 244, 0.716);
+}
+@media only screen and (max-width: 600px) {
+    .gameBody{
+        height: 300px;
+        width:  300px;
+        background-color: black;
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        border-radius: 3%;
+        border: none;
+    }
+    .box{
+        height: 90px;
+        width: 90px;
+        background-color: white;
+        margin-top: 7px;
+        border-radius: 5%;
+        border: none;
+        font-size: 80px;
+        color: salmon;
+    
+    }
+
+}
